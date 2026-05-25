@@ -1,7 +1,8 @@
 # GBAT: GazeBehavior Annotation Toolkit
 
 GBAT is a toolkit for processing multimodal recordings of adult and children behavior. It has functions in extracting features from both egocentric and third-person video recordings. It includes three main components: a Video Synchronizer, a Gaze Target Annotator, and a Video Content Annotator.
-[VSS_poster_86_40.pdf](https://github.com/user-attachments/files/28231453/VSS_poster_86_40.pdf)
+
+Full Poster: [VSS_poster_86_40.pdf](https://github.com/user-attachments/files/28231453/VSS_poster_86_40.pdf)
 
 
 ## Why this toolkit exists
