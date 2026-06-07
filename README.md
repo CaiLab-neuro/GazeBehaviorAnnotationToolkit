@@ -31,6 +31,7 @@ See [Video_Synchronizer/README.md](https://github.com/CaiLab-neuro/Video_Synchro
 
 ### `Sam2UI` (Gaze_Target_Annotator)
 Tools and UI for video object segmentation with semantic labels using SAM2/3 models. For egocentric videos, we also provide code to align eye-gaze data with segmented object masks to identify the semantic object category of each fixation (what object the person is looking at ?).
+
 Top-level files:
 
 - `install.py`
