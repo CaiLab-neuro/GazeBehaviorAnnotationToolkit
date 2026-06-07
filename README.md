@@ -19,7 +19,7 @@ This top-level repository groups the three component tools in one workspace:
 ## Repository Structure
 
 ### `Video_Synchronizer`
-Tools for post-hoc alignment of video recordings using audio information.
+Tools for post-hoc synchronization of multi-camera video recordings, including egocentric and third-person views, using audio spectrogram correlation.
 
 Top-level files:
 
@@ -29,9 +29,8 @@ Top-level files:
 
 See [Video_Synchronizer/README.md](https://github.com/CaiLab-neuro/Video_Synchronizer.git).
 
-### `Sam2UI`
-Annotation and processing tools for video object segmentation built around a SAM2 workflow.
-
+### `Sam2UI` (Gaze_Target_Annotator)
+Tools and UI for video object segmentation with semantic labels using SAM2/3 models. For egocentric videos, we also provide code to align eye-gaze data with segmented object masks to identify the semantic object category of each fixation (what object the person is looking at ?).
 Top-level files:
 
 - `install.py`
@@ -43,7 +42,7 @@ Top-level files:
 See [Sam2UI/README.md](https://github.com/CaiLab-neuro/Sam2UI.git).
 
 ### `video_annotator`
-Pipeline for generating time-resolved behavioral annotations from video.
+Tools for video content annotation using a Vision-Language Model (VLM) in a question-answering framework. In human studies, this tool can be used to label human poses, behaviors, and environmental changes, such as whether a toy remains in the room.
 
 Top-level files:
 
