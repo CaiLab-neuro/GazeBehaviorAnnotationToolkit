@@ -25,7 +25,7 @@ Top-level files:
 
 - `extract_audios_1.py`
 - `video_aligner_2.py`
-- `gaze_frame_alignment&cut_3.py`
+- `gaze_frame_timestamps_cut_3.py`
 
 See [Video_Synchronizer/README.md](https://github.com/CaiLab-neuro/Video_Synchronizer.git).
 
