@@ -24,8 +24,8 @@ Tools for post-hoc synchronization of multi-camera video recordings, including e
 Top-level files:
 
 - `extract_audios_1.py`
-- `video_aligner_publish_2.py`
-- `gaze_frame_alignment_in_cut_3.py`
+- `video_aligner_2.py`
+- `gaze_frame_alignment&cut_3.py`
 
 See [Video_Synchronizer/README.md](https://github.com/CaiLab-neuro/Video_Synchronizer.git).
 
